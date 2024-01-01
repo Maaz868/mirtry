@@ -1,0 +1,33 @@
+.SearchBar {
+    display: flex;
+    margin: 10px;
+    max-width: 250px;
+    width: 80%;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+  }
+  
+  .SearchBar input[type="text"] {
+    border: none;
+    font-size: 0.9rem;
+    padding: 5px;
+    width: 80%;
+    background-color: transparent;
+    color: #555;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .SearchBar button {
+    background-color: #007bff;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 3px 8px; /* Reduced top and bottom padding */
+  }
+  
+  .SearchBar button:hover {
+    background-color: #0069d9;
+  }
+  

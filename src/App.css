@@ -1,0 +1,71 @@
+/* App.css */
+.App {
+  /* max-width: 1000px; */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e0e0e0;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #333;
+}
+
+.BlogPost {
+  background-color: #c4e288;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+  padding: 20px;
+  /* add the following styles */
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.BlogPost h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.BlogPost p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.blog-posts-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 50%;
+  margin-left: 2.5rem;
+}
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+/* .about-us-container h1, */
+.about-us-container p {
+  text-align: center;
+  margin: 10px;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer p {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+}

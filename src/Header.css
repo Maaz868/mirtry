@@ -1,0 +1,55 @@
+/* Header.css */
+
+nav {
+  background-color: #f1c40f; /* Light gray background */
+  color: #333; /* Dark text color */
+  height: 60px; /* Set height of navbar */
+  padding: 10px 20px; /* Add padding to navbar content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  }
+  nav a {
+    color: #333; /* Dark text color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 20px;
+
+  }
+  nav a:hover {
+    color: #000; /* Darker text color on hover */
+  }
+  
+  
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+  }
+  
+  li {
+    margin: 0 1rem;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    color: #0077b6;
+  }
+  
